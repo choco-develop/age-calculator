@@ -1,0 +1,46 @@
+body{
+    font-size: 62.5%;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+  
+    margin: auto 25%;
+}
+input,button,#age{
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 3rem;
+}
+div{
+    display: flex;
+}
+
+#age{
+    display: none;
+}
+@media only screen and (max-width:480px) {
+    
+    body{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed ;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+@media (min-width:481px) and (max-width:760px){
+   
+    body{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed ;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
